@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" >
+        
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <div id="body">
+            <section class="content-wrapper main-content clear-fix">
+<hgroup class="title">
+    <br><br>
+    <h1 align="center">Calculator</h1>
+    
+    <h2 align="center"> Task-1</h2>
+    
+</hgroup>  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,inital-scale=1">
+    <div class="cal">
+        <div class="bg">
+            <div class="display">
+                <p id="display"></p>
+            </div>
+
+            <div class="buttons">
+                <button onclick="getInputValue()">c</button>
+                <button onclick="getInputValue()">%</button>
+                <button onclick="getInputValue()">DEL</button>
+                <button onclick="getInputValue()">/</button><br>
+                <button onclick="getInputValue()">7</button>
+                <button onclick="getInputValue()">8</button>
+                <button onclick="getInputValue()">9</button>
+                <button onclick="getInputValue()">*</button><br>
+                <button onclick="getInputValue()">4</button>
+                <button onclick="getInputValue()">5</button>
+                <button onclick="getInputValue()">6</button>
+                <button onclick="getInputValue()">-</button><br>
+                <button onclick="getInputValue()">1</button>
+                <button onclick="getInputValue()">2</button>
+                <button onclick="getInputValue()">3</button>
+                <button onclick="getInputValue()">+</button><br>
+                <button onclick="getInputValue()">00</button>
+                <button onclick="getInputValue()">0</button>
+                <button onclick="getInputValue()">.</button>
+                <button class="equalto" onclick="getInputValue()">=</button>
+            </div>
+        </div>
+    </div>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        
+    }
+    .bg {
+        border-radius: 40px;
+        background: linear-gradient(145deg, #0e030300, #0c0b0b);
+        box-shadow: 27px 27px 66px #170101, -27px -27px 66px #ffffffe8;
+        padding: 30px 30px 30px 30px;
+    }
+    .buttons button{
+        margin-right: 6px;
+        margin-bottom: 6px;
+        width: 70px;
+        height:70px;
+        color: rgb(51, 18, 34);
+        background-color: rgb(97, 67, 90);
+        border-radius: 50%;
+        font-size: 20px;
+        font-weight: bold;
+        border: none ;
+        box-shadow: rgba(0,0,0,0.19) 0px 10px 20px, rgba(0,0,0,0.23) 0px 6px 6px;
+        transition: 0.2s ease-in-out;
+    }
+    .buttons button:hover{
+        background-color: rgb(50, 45, 68);
+        color: rgb(212, 192, 255);
+    }
+    .cal{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 8em;
+    }
+    .cal span{
+        font-size: 16px;
+    }
+    .cal .display{
+        display:flex;s
+        background-color: rgb(5, 5, 6);
+        border: 3px solid rgb(15, 15, 16);
+        width: 96.3%;
+        border-radius: 9px;
+        height: 60px;
+        margin-bottom: 8px;
+        justify-content: center;
+        align-items:center;
+        box-shadow: rgba(0, 0, 0,0.15) 0px 5px 15px, rgba(0,0,0,0.15) 0px 6px 6px;
+        font-size: 40px;
+        line-height: 60px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(98, 17, 84);
+        letter-spacing: 2px;
+    }
+    .display:hover{
+        background-color: pink;
+    }
+
+
+</style>
+
+<script src="Calculator by Java Script.js">
+    
+</script>
+
+<article>
+    <p>
+
+        <h1 align="centre"></h1>BY:Chappa kumar
+    </p>
+
+</article>
+
+
+            </section>
+        </div>
+        <div class="footer-basic">
+            <footer>
+                <center>
+                    <p class="copyright">Made with ❤ by Chappa kumar © 2023</p>
+                    <br><br> <br><br>
+                </center>
+            </footer>
+        </div>
+      <style>
+          .smd {
+              padding: 6px 6px 6px 6px;
+              margin-left: 20px;
+              border-radius: 80%;
+              background: linear-gradient(145deg, #120909, #151212);
+              box-shadow: 8px 8px 20px #110e0e, -8px -8px 20px #131010;
+          }
+          .copyright {
+              font-size:medium;
+           
+              color:black;
+              font-style:oblique;
+          }
+      </style>
+            
+        
+    
+</body></html><!DOCTYPE html>
+<html lang="en" >
+        
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <div id="body">
+            <section class="content-wrapper main-content clear-fix">
+<hgroup class="title">
+    <br><br>
+    <h1 align="center">Calculator</h1>
+    
+    <h2 align="center"> Task-1</h2>
+    
+</hgroup>  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,inital-scale=1">
+    <div class="cal">
+        <div class="bg">
+            <div class="display">
+                <p id="display"></p>
+            </div>
+
+            <div class="buttons">
+                <button onclick="getInputValue()">c</button>
+                <button onclick="getInputValue()">%</button>
+                <button onclick="getInputValue()">DEL</button>
+                <button onclick="getInputValue()">/</button><br>
+                <button onclick="getInputValue()">7</button>
+                <button onclick="getInputValue()">8</button>
+                <button onclick="getInputValue()">9</button>
+                <button onclick="getInputValue()">*</button><br>
+                <button onclick="getInputValue()">4</button>
+                <button onclick="getInputValue()">5</button>
+                <button onclick="getInputValue()">6</button>
+                <button onclick="getInputValue()">-</button><br>
+                <button onclick="getInputValue()">1</button>
+                <button onclick="getInputValue()">2</button>
+                <button onclick="getInputValue()">3</button>
+                <button onclick="getInputValue()">+</button><br>
+                <button onclick="getInputValue()">00</button>
+                <button onclick="getInputValue()">0</button>
+                <button onclick="getInputValue()">.</button>
+                <button class="equalto" onclick="getInputValue()">=</button>
+            </div>
+        </div>
+    </div>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        
+    }
+    .bg {
+        border-radius: 37px;
+        background: linear-gradient(145deg, #e6e6e6, #ffffff);
+        box-shadow: 30px 30px 66px #8c8c8c, -27px -27px 66px #ffffff;
+        padding: 40px 40px 40px 40px;
+    }
+    .buttons button{
+        margin-right: 8px;
+        margin-bottom: 8px;
+        width: 80px;
+        height:80px;
+        color: rgb(162, 173, 183);
+        background-color: rgb(1, 7, 11);
+        border-radius: 50%;
+        font-size: 20px;
+        font-weight: bold;
+        border: none ;
+        box-shadow: rgba(0,0,0,0.19) 0px 10px 20px, rgba(0,0,0,0.23) 0px 6px 6px;
+        transition: 0.2s ease-in-out;
+    }
+    .buttons button:hover{
+        background-color: rgb(129, 38, 112);
+        color: rgb(42, 161, 24);
+    }
+    .cal{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 8em;
+    }
+    .cal span{
+        font-size: 18px;
+    }
+    .cal .display{
+        display:flex;
+        background-color: rgb(212,194,255);
+        border: 3px solid rgb(212,194,255);
+        width: 96.3%;
+        border-radius: 9px;
+        height: 60px;
+        margin-bottom: 8px;
+        justify-content: center;
+        align-items:center;
+        box-shadow: rgba(0, 0, 0,0.15) 0px 5px 15px, rgba(0,0,0,0.15) 0px 6px 6px;
+        font-size: 40px;
+        line-height: 60px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(250,245,255);
+        letter-spacing: 2px;
+    }
+    .display:hover{
+        background-color: pink;
+    }
+
+
+</style>
+
+<script src="Calculator by Java Script.js">
+    
+</script>
+
+<article>
+    <p>
+
+        <h1 align="centre"></h1>BY:Chappa kumar
+    </p>
+
+</article>
+
+
+            </section>
+        </div>
+        <div class="footer-basic">
+            <footer>
+                <center>
+                    <p class="copyright">Made with ❤ by Chappa kumar © 2023</p>
+                    <br><br> <br><br>
+                </center>
+            </footer>
+        </div>
+      <style>
+          .smd {
+              padding: 6px 6px 6px 6px;
+              margin-left: 20px;
+              border-radius: 60%;
+              background: linear-gradient(145deg, #b11010, #121111);
+              box-shadow: 8px 8px 20px #161414, -8px -8px 20px #ffffff;
+          }
+          .copyright {
+              font-size:medium;
+           
+              color:black;
+              font-style:oblique;
+          }
+      </style>
+            
+        
+    
+</body></html>
